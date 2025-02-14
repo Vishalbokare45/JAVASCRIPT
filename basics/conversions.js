@@ -32,7 +32,7 @@ let char= 'v'
 
 console.log(char)
 
-console.log(typeof(char))
+console.log(typeof(char))  
 
 
 
