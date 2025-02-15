@@ -1,0 +1,34 @@
+
+DataTypes:
+How they are stored in the memory and  how they are accessed from memory.
+
+1. Primitive (Call by Value)
+String,number,BigInt,Boolean,null,undefined,symbol.
+
+2. Non-Primitive (Call by Reference)
+ Array, Objects, Functions.
+
+
+ # define Array
+
+ const arr=["Vishal", "Bokare","VIT"]
+
+ # define Objects
+
+ const myObj={
+
+       myName:"Vishal",
+       age:21,
+       cllg: "VIT
+ }
+
+
+# define Function
+
+ let myFun= Functions(){
+
+    console.log("My Name is Vishal")
+ }
+
+
+
