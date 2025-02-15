@@ -1,4 +1,4 @@
-let Myname= "Vishal vitthal"
+let Myname= "Vishal "
 let surName="Bokare"
 
 console.log(Myname)
