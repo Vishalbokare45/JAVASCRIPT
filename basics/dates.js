@@ -18,3 +18,10 @@ console.log(myCreatedDate.toLocaleString())
 let newDates=new Date("2025/10/31")
 
 console.log(newDates.toLocaleDateString())
+
+console.log(newDates.getFullYear())
+
+console.log(newDates.getDate())
+console.log(newDates.getMonth()+1)
+
+console.log(newDates.getMilliseconds())
