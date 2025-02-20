@@ -80,3 +80,25 @@ switch(month){
         console.log("default match")
 
 }
+
+
+// falsy values
+
+// false, "",0,-0,BigInt 0n, null, undefined,NAN
+
+// truthy values
+
+// true, [],{}, function(){},"0","false".
+
+
+
+// let  userName="vishal"
+
+// let  userName="";
+
+let userName=[]
+if(userName){
+    
+
+    console.log(`userName : ${userName}`);
+}
