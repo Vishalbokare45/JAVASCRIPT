@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>DOM Learning_4</title>
+</head>
+<body  style="background-color: #212121; color:White">
+    
+      <ul class="languages">
+
+        <li>JAVASCRIPT</li>
+      </ul>
+</body>
+
+<script>
+    function addLangs(userLang){
+
+    const li=document.createElement('li')
+    
+    li.innerHTML=`${userLang}`
+
+    document.querySelector('.languages').appendChild(li)
+
+    }
+
+    addLangs("PYTHON")
+    addLangs("NODE JS")
+
+
+    function addOptimizedLangs(Langs){
+
+        const li=document.createElement('li')
+
+        li.appendChild(document.createTextNode(Langs))
+
+
+        document.querySelector('.languages').appendChild(li)
+
+
+
+
+    }
+
+
+    addOptimizedLangs("TYPESCRIPT")
+
+
+
+    // EDIT in DOM
+
+    const changeList=document.querySelector("li:nth-child(3)")
+    // changeList.innerHTML="Vishal"
+
+    const newLang=document.createElement("li")
+    newLang.textContent="MOJO"
+
+    changeList.replaceWith(newLang)
+
+     // EDIT in DOM
+
+     const firstChild=document.querySelector('li:first-child')
+     console.log(firstChild)
+
+     firstChild.outerHTML="<li>Vishal Bokare<li>"
+
+
+        document.querySelector('li:nth-child(2)').remove()
+
+        document.querySelector('li:nth-child(4)').remove()
+
+
+
+
+
+
+
+
+</script>
+
+</html>
